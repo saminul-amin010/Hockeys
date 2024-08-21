@@ -9,6 +9,10 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/52e149d1c0.js"
+      crossorigin="anonymous"
+    ></script>
     <script>
       tailwind.config = {
         theme: {
@@ -20,7 +24,234 @@
         },
       };
     </script>
-    <title>Hockeys</title>
+    <title>Hockey's</title>
   </head>
-  <body></body>
+
+  <body>
+    <header class="container mx-auto">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li class="hover:text-red-500"><a>Home</a></li>
+              <li class="hover:text-red-500"><a>About</a></li>
+              <li class="hover:text-red-500"><a>Pages</a></li>
+              <li class="hover:text-red-500"><a>Blog</a></li>
+              <li class="hover:text-red-500"><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="text-2xl font-bold"
+            >Hockey<span class="text-red-500">'</span>s</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-semibold">
+            <li class="hover:text-red-500"><a>Home</a></li>
+            <li class="hover:text-red-500"><a>About</a></li>
+            <li class="hover:text-red-500"><a>Pages</a></li>
+            <li class="hover:text-red-500"><a>Blog</a></li>
+            <li class="hover:text-red-500"><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end flex space-x-5">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a class="btn btn-error text-white text-lg font-[500]">Get Ticket</a>
+        </div>
+      </div>
+
+      <!-- Slider -->
+      <div class="relative px-6 lg:px-0">
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div
+              class="absolute bottom-6 left-6 flex justify-between space-x-3"
+            >
+              <a href="#slide4" class="btn btn-circle bg-slate-900 text-white"
+                >❮</a
+              >
+              <a href="#slide2" class="btn btn-circle bg-slate-900 text-white"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+              class="w-full"
+            />
+            <div
+              class="absolute bottom-6 left-6 flex justify-between space-x-3"
+            >
+              <a href="#slide1" class="btn btn-circle bg-slate-900 text-white"
+                >❮</a
+              >
+              <a href="#slide3" class="btn btn-circle bg-slate-900 text-white"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+              class="w-full"
+            />
+            <div
+              class="absolute bottom-6 left-6 flex justify-between space-x-3"
+            >
+              <a href="#slide2" class="btn btn-circle bg-slate-900 text-white"
+                >❮</a
+              >
+              <a href="#slide4" class="btn btn-circle bg-slate-900 text-white"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+              class="w-full"
+            />
+            <div
+              class="absolute bottom-6 left-6 flex justify-between space-x-3"
+            >
+              <a href="#slide3" class="btn btn-circle bg-slate-900 text-white"
+                >❮</a
+              >
+              <a href="#slide1" class="btn btn-circle bg-slate-900 text-white"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="lg:absolute bottom-12 right-12 lg:w-1/3 bg-slate-900 py-12 px-6 text-white rounded-md space-y-4"
+        >
+          <h6 class="text-2xl font-semibold">
+            Meet All the Heroes from the Field
+          </h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            quos exercitationem, quo earum error assumenda ad magnam voluptatum
+            ullam id eius esse! A expedita odit vero, ad necessitatibus laborum
+            natus?
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main class="container mx-auto">
+      <!-- Stat Container -->
+      <section class="mt-24">
+        <div
+          class="border-y-2 border-dashed py-12 text-center flex flex-col items-center justify-center"
+        >
+          <h3 class="text-3xl font-bold mb-3">Professional Hockey Club</h3>
+          <p class="opacity-80 w-1/2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, ab
+            doloribus? Labore, consequatur quasi officiis eos architecto ab
+            corrupti, autem expedita obcaecati, fugiat facilis numquam!
+          </p>
+        </div>
+        <!-- Progress Bar -->
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="flex flex-col items-center justify-center py-6 space-y-3">
+            <div class="relative">
+              <div
+                class="z-50 radial-progress text-red-500"
+                style="--value: 87"
+                role="progressbar"
+              >
+                87%
+              </div>
+              <div
+                class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300"
+                style="--value: 100"
+                role="progressbar"
+              ></div>
+            </div>
+            <h6 class="text-xl font-semibold">Player Facility</h6>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="flex flex-col items-center justify-center py-6 space-y-3">
+            <div class="relative">
+              <div
+                class="z-50 radial-progress text-green-700"
+                style="--value: 95"
+                role="progressbar"
+              >
+                95%
+              </div>
+              <div
+                class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300"
+                style="--value: 100"
+                role="progressbar"
+              ></div>
+            </div>
+            <h6 class="text-xl font-semibold">Experienced Coach</h6>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="flex flex-col items-center justify-center py-6 space-y-3">
+            <div class="relative">
+              <div
+                class="z-50 radial-progress text-yellow-500"
+                style="--value: 90"
+                role="progressbar"
+              >
+                90%
+              </div>
+              <div
+                class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300"
+                style="--value: 100"
+                role="progressbar"
+              ></div>
+            </div>
+            <h6 class="text-xl font-semibold">Senior Player</h6>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="flex flex-col items-center justify-center py-6 space-y-3">
+            <div class="relative">
+              <div
+                class="z-50 radial-progress text-blue-500"
+                style="--value: 80"
+                role="progressbar"
+              >
+                80%
+              </div>
+              <div
+                class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300"
+                style="--value: 100"
+                role="progressbar"
+              ></div>
+            </div>
+            <h6 class="text-xl font-semibold">Training Ground</h6>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+
+        
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
