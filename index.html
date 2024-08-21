@@ -8,6 +8,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="styles/styles.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script
       src="https://kit.fontawesome.com/52e149d1c0.js"
@@ -159,7 +160,7 @@
       </div>
     </header>
 
-    <main class="container mx-auto">
+    <main class="container px-12 lg:px-0 mx-auto">
       <!-- Stat Container -->
       <section class="mt-24">
         <div
@@ -247,8 +248,52 @@
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
+      </section>
 
-        
+      <!-- Program SEction -->
+      <section class="mt-24">
+        <div
+          class="border-y-2 border-dashed py-12 text-center flex flex-col items-center justify-center"
+        >
+          <h3 class="text-3xl font-bold mb-3">Program Section</h3>
+          <p class="opacity-80 w-1/2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, ab
+            doloribus? Labore, consequatur quasi officiis eos architecto ab
+            corrupti, autem expedita obcaecati, fugiat facilis numquam!
+          </p>
+        </div>
+        <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div
+            class="w-full rounded-lg junior-program flex flex-col justify-end items-center p-24 text-white"
+          >
+            <h5 class="text-2xl font-semibold mb-4">Junior Program</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              cupiditate consectetur, natus sapiente dolorem architecto!
+            </p>
+            <button class="btn btn-error mt-4 text-white">Register Now!</button>
+          </div>
+          <div
+            class="w-full rounded-lg senior-program flex flex-col justify-end items-center p-24 text-white"
+          >
+            <h5 class="text-2xl font-semibold mb-4">Senior Program</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              cupiditate consectetur, natus sapiente dolorem architecto!
+            </p>
+            <button class="btn btn-error mt-4 text-white">Register Now!</button>
+          </div>
+          <div
+            class="w-full rounded-lg lg:col-span-2 prof-program flex flex-col justify-end items-start p-24 text-white"
+          >
+            <h5 class="text-2xl font-semibold mb-4">Professional Program</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              cupiditate consectetur, natus sapiente dolorem architecto!
+            </p>
+            <button class="btn btn-error mt-4 text-white">Register Now!</button>
+          </div>
+        </div>
       </section>
     </main>
 
